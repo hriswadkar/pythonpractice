@@ -1,0 +1,30 @@
+# Write a class "calculator" capable of finding square, cube and square root of a number
+import math
+
+class Calculator:
+    number = 0
+
+    def __init__(self, num):
+        self.number = num
+
+    def getSquare(self):
+        return self.number * self.number
+    
+    def getCube(self):
+        return self.number * self.number * self.number
+    
+    def getSquareRoot(self):
+        return int(math.sqrt(self.number))
+    
+    @staticmethod
+    def greet():
+        print("Hello, welcome to calculator program")
+    
+
+n = int(input("Enter a number: "))
+calc = Calculator(n)
+
+print(calc.greet())
+print(calc.getSquare())
+print(calc.getCube())
+print(calc.getSquareRoot())

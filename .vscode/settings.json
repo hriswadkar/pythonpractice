@@ -1,0 +1,5 @@
+{
+    "workbench.editor.showTabs": "multiple",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.autoImportCompletions": true
+}
